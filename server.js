@@ -2,8 +2,7 @@ const express = require('express')
 const app = express()
 const MongoClient = require('mongodb').MongoClient
 const PORT = 2121
-require('dotenv').config()
-
+require('dotenv').config({ path: './config/.env' })
 
 let db,
     dbConnectionStr = process.env.DB_STRING,
@@ -14,25 +13,26 @@ MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
         console.log(`Connected to ${dbName} Database`)
         db = client.db(dbName)
     })
-    
+
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
 
-app.get('/',async (request, response)=>{
-    const todoItems = await db.collection('todos').find().toArray()
-    const itemsLeft = await db.collection('todos').countDocuments({completed: false})
-    response.render('index.ejs', { items: todoItems, left: itemsLeft })
-    // db.collection('todos').find().toArray()
-    // .then(data => {
-    //     db.collection('todos').countDocuments({completed: false})
-    //     .then(itemsLeft => {
-    //         response.render('index.ejs', { items: data, left: itemsLeft })
-    //     })
-    // })
-    // .catch(error => console.error(error))
+app.get('/', async (request, response) => {
+    console.log('hi, we are connected Cesar!')
+
+    try {
+        console.log('hi, we are connected Cesar in the try block!')
+        const todoItems = await db.collection('todos').find().toArray()
+        const itemsLeft = await db.collection('todos').countDocuments({completed: false})
+
+        response.render('index.ejs', { items: todoItems, left: itemsLeft })
+
+    } catch(err) {
+        console.error(err)
+    }
 })
 
 app.post('/addTodo', (request, response) => {
@@ -53,17 +53,17 @@ app.put('/markComplete', (request, response) => {
         sort: {_id: -1},
         upsert: false
     })
-    .then(result => {
+    .then(result => { 
         console.log('Marked Complete')
         response.json('Marked Complete')
     })
-    .catch(error => console.error(error))
+    .catch(error => console.error(error)) 
 
 })
 
 app.put('/markUnComplete', (request, response) => {
     db.collection('todos').updateOne({thing: request.body.itemFromJS},{
-        $set: {
+        $set: { 
             completed: false
           }
     },{
@@ -71,11 +71,10 @@ app.put('/markUnComplete', (request, response) => {
         upsert: false
     })
     .then(result => {
-        console.log('Marked Complete')
-        response.json('Marked Complete')
+        console.log('Marked uncomplete server')
+        response.json('Marked uncomplete client-side')
     })
     .catch(error => console.error(error))
-
 })
 
 app.delete('/deleteItem', (request, response) => {
