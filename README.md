@@ -1,7 +1,7 @@
-# Portfolio Website : <a target="_blank" href="https://market-list-grocery-app.herokuapp.com/">Visit Here</a>
+# Market List App : <a target="_blank" href="https://market-list-grocery-app.herokuapp.com/">Visit Here</a>
 
 <a target="_blank" href="https://market-list-grocery-app.herokuapp.com/">
-<img src="RMimages/MarketListAppScreenshot.png" width="100%" alt="Market List Web App"/>
+<img src="https://media0.giphy.com/media/Ma6LkaAayDWf6pLIHx/giphy.gif?cid=790b761138376151375e407c8bf14b26f2920095a828b374&rid=giphy.gif&ct=g" width="100%" alt="Market List Web App"/>
 </a>
 
 ### A full-stack CRUD web app to create and manage your grocery shopping list.
@@ -27,21 +27,21 @@ Utilizing best practices to setup the the code on the server to prevent potentia
 <a target="_blank" href="https://github.com/Cesar-Quintero/Coiffeur">Coiffeur</a>
         <br />
       <a target="_blank" href="https://github.com/Cesar-Quintero/Coiffeur">
-            <img src="RMimages/CoiffeurScreenshot.png" width="100%"  alt="Coiffeur"/>
+            <img src="https://media1.giphy.com/media/Kb14oKsTBZ755MVznM/giphy.gif?cid=790b76110eab55d7ad7496457ad220a04dd796803baa37ad&rid=giphy.gif&ct=g" width="100%"  alt="Coiffeur"/>
         </a>
     </td>
     <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/Cesar-Quintero/donut-king">Donut King</a>
+<a target="_blank" href="https://github.com/Cesar-Quintero/Tea-Time">Tea Time</a>
       <br />
-        <a target="_blank" href="https://github.com/Cesar-Quintero/donut-king">
-          <img src="RMimages/DKScreenshot.png" width="100%" alt="Donut King"/>
+        <a target="_blank" href="https://github.com/Cesar-Quintero/Tea-Time">
+          <img src="https://media3.giphy.com/media/uXvh4rzDlXdM4IfcKh/giphy.gif?cid=790b76116c03bcc40ec90b2bf08cd0dcb5822fe4bd87b591&rid=giphy.gif&ct=g" width="100%" alt="Tea time app"/>
         </a>
     </td>
     <td width="33.3%" valign="top">
 <a target="_blank" href="https://github.com/Cesar-Quintero/Cesar-Quintero-Portfolio-Website">Portfolio Website</a>
         <br />
       <a target="_blank" href="https://github.com/Cesar-Quintero/Cesar-Quintero-Portfolio-Website">
-            <img src="RMimages/scrnsht1.jpeg" width="100%"  alt="Portfolio Website"/>
+            <img src="https://media1.giphy.com/media/fwE32i09ormDvQxT7S/giphy.gif?cid=790b76111927513665da4414e3e7fc131e571676ba55f3c4&rid=giphy.gif&ct=g" width="100%"  alt="Portfolio Website"/>
         </a>
     </td>
   </tr>
