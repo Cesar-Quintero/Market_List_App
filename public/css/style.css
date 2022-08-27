@@ -66,27 +66,30 @@ h4 {
 
 .form {
     width: 100%;
+    display: flex;
+
 }
 
 input {
+    margin-right: .2rem;
     padding: .3rem;
     background: #f1f5f8;
     background: var(--clr-grey-10);
     border-radius: .25rem;
     border-color: transparent;
     font-size: 1rem;
-    flex: 1 0 auto;
     color: #3d5e7d;
-    width: 72%;
+    flex-grow: 1;
     font-weight: bolder;
 }
 
 .submit {
     color: var(--clr-primary-1);
     transition: .3s;
-    width: 18%;
+    flex-grow: 1;
     border-radius: .25rem;
     font-weight: bolder;
+    margin-left: .2rem;
 }
 
 .submit:hover {
@@ -97,7 +100,6 @@ input {
     margin: 8rem auto 0;
     padding: 2rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-
     background: #fff;
     background: var(--clr-white);
     border-radius: 0.25rem;
@@ -155,6 +157,9 @@ li span:hover {
     text-decoration: line-through;
 }
 
+.todo {
+    width: 100%;
+}
 
 .leftToDo {
     color:hsl(205, 77%, 27%);
