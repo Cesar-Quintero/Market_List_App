@@ -118,7 +118,7 @@ input {
 ul {
     list-style-type: none;
     text-align: left;
-    margin: 0 1rem;
+    margin: 1rem 0;
     font-weight: bolder;
 }
 
