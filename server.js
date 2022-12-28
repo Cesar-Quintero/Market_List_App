@@ -4,15 +4,16 @@ const PORT = 2121
 const MongoClient = require('mongodb').MongoClient
 require('dotenv').config({ path: './config/.env' })
 
-let db,
-    dbConnectionStr = process.env.DB_STRING,
-    dbName = 'todo'
-
 MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
     .then(client => {
         console.log(`Connected to ${dbName} Database`)
         db = client.db(dbName)
     })
+
+let db,
+    dbConnectionStr = process.env.DB_STRING,
+    dbName = 'todo'
+    
 
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
