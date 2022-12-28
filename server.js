@@ -32,6 +32,7 @@ app.get('/', async (request, response) => {
 
     } catch(err) {
         console.error(err)
+        console.log('there was an error in requesting db data CESAR')
     }
 })
 
