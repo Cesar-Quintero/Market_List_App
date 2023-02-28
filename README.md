@@ -1,14 +1,14 @@
-# Market List App : <a target="_blank" href="https://market-list-grocery-app.up.railway.app/">Visit Here</a>
+# Market List App : <a target="_blank" href="https://market-list-app.onrender.com/">Visit Here</a>
 
-<a target="_blank" href="https://market-list-grocery-app.up.railway.app/">
+<a target="_blank" href="https://market-list-app.onrender.com/">
 <img src="https://media0.giphy.com/media/Ma6LkaAayDWf6pLIHx/giphy.gif?cid=790b761138376151375e407c8bf14b26f2920095a828b374&rid=giphy.gif&ct=g" width="100%" alt="Market List Web App"/>
 </a>
 
 ### A full-stack CRUD web app to create and manage your grocery shopping list.
 
-## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)![BOOTSTRAP BADGE](https://img.shields.io/static/v1?label=|&message=BOOTSTRAP&color=316c5e&style=plastic&logo=bootstrap)![MONGODB BADGE](https://img.shields.io/static/v1?label=|&message=MONGO-DB&color=cdd148&style=plastic&logo=mongodb)![NODE BADGE](https://img.shields.io/static/v1?label=|&message=NODE&color=bbb111&style=plastic&logo=nodedotjs)![EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express)![RAILWAY BADGE](https://img.shields.io/static/v1?label=|&message=RAILWAY&color=bbb111&style=plastic&logo=railway)![POSTMAN BADGE](https://img.shields.io/static/v1?label=|&message=POSTMAN&color=bbb111&style=plastic&logo=postman)
+## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)![BOOTSTRAP BADGE](https://img.shields.io/static/v1?label=|&message=BOOTSTRAP&color=316c5e&style=plastic&logo=bootstrap)![MONGODB BADGE](https://img.shields.io/static/v1?label=|&message=MONGO-DB&color=cdd148&style=plastic&logo=mongodb)![NODE BADGE](https://img.shields.io/static/v1?label=|&message=NODE&color=bbb111&style=plastic&logo=nodedotjs)![EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express)![RENDER BADGE](https://img.shields.io/static/v1?label=|&message=RENDER&color=bbb111&style=plastic&logo=render)![POSTMAN BADGE](https://img.shields.io/static/v1?label=|&message=POSTMAN&color=bbb111&style=plastic&logo=postman)
 
-My learning was focused on using CRUD methods when setting up the server and creating a seemless connection between the database and Railway.
+My learning was focused on using CRUD methods when setting up the server and creating a seemless connection between the database and Render.
 
 ## Optimizations
 
